@@ -1,9 +1,13 @@
+// * Components
+import Card from './components/Card';
+
+// * CSS
 import './App.css';
 
 function App() {
   return (
     <div>
-      <div className=''>Card</div>
+      <Card />
     </div>
   );
 }
